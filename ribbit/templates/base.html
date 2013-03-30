@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="{{ STATIC_URL }}style.less">
+	<link rel="stylesheet/less" href="{{ STATIC_URL }}style.less">
 	<script src="{{ STATIC_URL }}less.js"></script>
 </head>
 <body>
@@ -32,7 +32,7 @@
 						{{ notice }}
 					</div>
 				{% endif %}
-			{% end block %}
+			{% endblock %}
 			{% block content%}
 
 			{% endblock %}
